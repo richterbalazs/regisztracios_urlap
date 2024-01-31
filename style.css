@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    background-color: whitesmoke;
+    color: lightblue;
+    display: grid;
+    grid-template-areas: 
+    "el"
+    "ma"
+    ;
+}
+
+#elso {
+    grid-area: el;
+    border: 1px solid blue;
+}
+
+br {
+    clear: both;
+}
+
+#masodik {
+    grid-area: ma;
+    border: 1px solid blue;
+}
+
+legend {
+    background-color: green;
+    border: 1px solid black;
+    color: whitesmoke;
+    margin: 20px;
+}
+
+.input_elsoresz {
+    margin: 25px;
+}
+
+.input_elsoresz {
+    margin: 25px;
+}
+
+#szuletes_fejlec {
+    color: blue;
+    background-color: lightblue;
+}
+
+#valaszthatoak {
+    display: grid;
+    border: 1px soid black;
+}

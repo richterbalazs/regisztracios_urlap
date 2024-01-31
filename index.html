@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="#" method="get">
+            <fieldset id="elso">
+            <!-- kereten lévő szöveg -->
+                <br>
+                <legend>regisztráció</legend>
+                <div class="input_elsoresz">
+                    <label for="neve">felhasználónév:</label>
+                    <input type="text" id="neve" name="nev" value="csak ékezetmentes betűk" size="20"><br>
+                    <!-- labe lfor és input id egyezzen meg -->
+                    <label for="jelszo">jelszó:</label>
+                    <input type="text" id="jelszo" name="jelszo" value="min 3. karakter" size="20">
+                    <br>
+                    <label for="emailcim">e-mail cím</label>
+                    <input type="text" id="email" name="email" value="" size="20"><br>
+                    <br>
+                </div>
+            </fieldset>
+            <fieldset id="masodik">
+                <!-- kereten lévő szöveg -->
+                <legend>születés</legend>
+                <div class="input_masodikresz">
+                    <br>
+                    <label for="mikor_utoljara">születési dátum</label>
+                    <input type="date" id="szuletesi_datum" name="szuletes" size="15">
+                    <br>
+                    <fieldset id="valaszthatoak">
+                        <legend id="szuletes_fejlec">személyes</legend>
+                        <br>
+                        <form action="#">
+                            <label for="szakok">Választott szak:</label>
+                            <select name="szakok" id="szakok">
+                            <option value="SZFA1">SZFA1</option>
+                            <option value="SZFA2">SZFA2</option>
+                            <option value="SZFB">SZFB</option>
+                            <option value="IRUA1">IRUA1</option>
+                            <option value="IRUA2">IRUA2</option>
+                            </select>
+                            <br><br>
+                    </form>
+                </div>
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
+<body>
+    
+</body>
+</html>
